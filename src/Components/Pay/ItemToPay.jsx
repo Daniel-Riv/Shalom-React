@@ -24,11 +24,11 @@ export const ItemToPay = ({ id,name,price,quantity,url }) => {
                 <div className='item flex'>
                     <img src={url} alt='' />
                     <div className='item__info'>
-                        <p className='item__name fw-400 fs-400  clr-neutral-700'>
+                        <p className='item__name fw-400 fs-400  '>
                             {name}
                         </p>
                         <span className='item__price fw-400 fs-400  clr-neutral-700'>
-                            {formatPrice}<b>x</b>{quantity}
+                            {formatPrice} <b>x</b> {quantity}
                         </span>{' '}
                         <span className='fw-700 fs-400  clr-neutral-900'>
                             {formatTotal}
