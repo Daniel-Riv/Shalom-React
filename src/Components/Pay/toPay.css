@@ -142,7 +142,7 @@
 }
 
 .item > img:first-child {
-	width: 65px;
+	width: 50px;
 	aspect-ratio: 1;
 	border-radius: 0.25rem;
 }
@@ -150,6 +150,10 @@
 .item__info {
 	flex: 1;
 	margin-left: 1rem;
+}
+.item__total {
+	position: relative;
+	top: 55%;
 }
 
 .item__name {

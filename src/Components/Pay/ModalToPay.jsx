@@ -6,6 +6,7 @@ import { CartContext } from '../../context/CartContext';
 import { useOnClickOutside } from '../../hooks/useOnClickOutside';
 import { ItemToPay } from './ItemToPay';
 import './toPay.css';
+import { setFormatPrice } from '../../hepers/setFormatPrice';
 
 
 export const ModalToPay = ({ open, handleClose,setOpen }) => {
@@ -19,6 +20,8 @@ export const ModalToPay = ({ open, handleClose,setOpen }) => {
         dispatch({ type: 'CLEAR_CART' });
     }
 
+    const total = state.cart.reduce((acc, item) => acc + item.price, 0);
+    const formatTotal = setFormatPrice(total);
 
     const handleAddSend = () =>{
         const msg = `Hola, estoy interesado en comprar los siguientes productos: ${state.cart.map(item => `*${item.name}*, El costo de este producto es: *${item.price}*`).join(', ')}`;
@@ -45,6 +48,7 @@ export const ModalToPay = ({ open, handleClose,setOpen }) => {
                             <ItemToPay key={item.id} {...item}  />
                         ))
                     }
+                        <span className='item__total fw-400 fs-400  clr-neutral-700'>Total a pagar: {formatTotal}</span>
                     <button className='btn3 flex fw-700 fs-400' onClick={handleAddSend}>Comprar</button>
                     </>
                     

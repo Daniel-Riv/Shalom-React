@@ -28,7 +28,7 @@ export const ItemToPay = ({ id,name,price,quantity,url }) => {
                             {name}
                         </p>
                         <span className='item__price fw-400 fs-400  clr-neutral-700'>
-                            {formatPrice} <b>x</b> {quantity}
+                            {formatPrice} <b> x </b> {quantity}
                         </span>{' '}
                         <span className='fw-700 fs-400  clr-neutral-900'>
                             {formatTotal}
