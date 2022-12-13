@@ -1,0 +1,83 @@
+.container1 {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row1 {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.sidebar-wrapper .single-sidebar {
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+}
+.sec-title {
+    position: relative;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #7D3970;
+}
+.sidebar-wrapper .single-sidebar .sec-title {
+    overflow: hidden;
+    padding-bottom: 31px;
+    margin-bottom: 0;
+}
+
+.single-sidebar .categories {
+    margin-top: -6px;
+}
+
+
+.single-sidebar .categories li {
+    border-bottom: 0.5px solid #494248;
+    padding: 10px 0;
+    margin-bottom: 12px;
+    padding-bottom: 11px;
+}
+
+.single-sidebar .categories li button {
+    color: #000221;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 25px;
+    position: relative;
+}
+.single-sidebar .categories li button:focus {
+    font-weight: bold;
+    color: #7D3970;
+}
+
+.clearfix li button {
+    height: 36px;
+    text-transform: uppercase !important;
+    padding-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+.single-sidebar .categories li button:before {
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 0;
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}

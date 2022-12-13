@@ -1,0 +1,12 @@
+.read {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+  }
+  
+  .read:hover {
+    color: #7D3970;
+  }

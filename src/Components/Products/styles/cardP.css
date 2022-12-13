@@ -1,0 +1,91 @@
+.cards{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.cardProduct{
+    width: 19rem;
+    border-radius: 0.6em;
+    margin: 1em;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.card-img, .card-img-button{
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+}
+
+  .card-title{
+    color: #020312;
+    margin-top: -0.2em;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .card-desc{
+    color: #000221
+  }
+
+.footer{
+    padding: 10px;
+    background-color: #fffefe;
+    border-top: 1px solid #e5e5e5;
+}
+
+.content {
+  position: relative;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+ .icon-box {
+  position: absolute;
+  right: 25px;
+  top: -60px;
+  width: 70px;
+  height: 70px;
+  color: #7D3970;
+  line-height: 70px;
+  font-size: 36px;
+  text-align: center;
+  border: 1px solid #f4f4f4;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cardProduct:hover,
+.cardProduct:hover .icon-box
+ {
+  outline: 2px solid #7D3970;
+}
+.cardProduct:hover .icon-box {
+
+  color: #fff;
+  background: #80c04d;
+
+}
+
+.cardProduct:hover .card-img-button {
+  opacity: 1;
+
+}
+.read-more {
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+
+.read-more:hover {
+  color: #7D3970;
+}
+.row-Rigth {
+  position: absolute;
+  margin-top: 6px;
+}

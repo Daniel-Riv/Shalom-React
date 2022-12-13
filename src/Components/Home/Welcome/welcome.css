@@ -1,0 +1,39 @@
+.welcome-section {
+    position: relative;
+    padding: 20px 0 5px;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.welcome-section .top-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.welcome-section .top-title h2 {
+    position: relative;
+    font-weight: 700;
+    color: #221620;
+    text-align: flex-start;
+    text-transform: unset;
+    line-height: 38px;
+    padding-right: 30px;
+}
+
+.welcome-section .top-title h2:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    background: #7D3970;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+
+.welcome-section .top-title .text {
+    position: relative;
+    margin-left: 0px;
+}

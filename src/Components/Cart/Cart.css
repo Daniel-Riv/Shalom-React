@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.cart-widget {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.cart-icon {
+    color: rgb(13, 11, 11);
+    font-size: 1.2em;
+}
+
+
+.cart-span {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}

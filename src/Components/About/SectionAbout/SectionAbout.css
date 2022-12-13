@@ -1,0 +1,95 @@
+.about-section{
+    position: relative;
+    padding: 80px 0px 50px;
+}
+
+.aut-container{
+    position:static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.about-section .about-column{
+    position: relative;
+    padding-bottom: 30px;
+}
+.sec-title{
+    position: relative;
+    margin-bottom: 55px;
+}
+.about-section .about-column .sec-title{
+    margin-bottom: 25px;
+}
+.sec-title h2 {
+    font-size: 42px;
+    color: #000221;
+    font-weight: 700;
+    line-height: 1.1em;
+    padding-bottom: 18px;
+    font-family: 'Heebo', sans-serif;
+}
+.sec-title .separater {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 3px;
+}
+.about-section .about-column .text {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-section .about-column .text p:last-child {
+    margin-bottom: 0px;
+}
+.about-section .about-column .text p {
+    position: relative;
+    color: #000221;
+    font-size: 17px;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-style-one {
+    position: relative;
+    padding: 10px 38px;
+    line-height: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+    background-color: #7D3970;
+    border: 2px solid #7D3970;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Heebo', sans-serif;
+}
+
+.about-section .chart-column {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.about-section .chart-column .inner-box {
+    position: relative;
+    padding-right: 40px;
+}
+
+.about-section .chart-column .inner-box .image {
+    position: relative;
+    margin-top: 18px;
+}
+.imgAi{
+    display: inline-block;
+    max-width: 100%;
+}

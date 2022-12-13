@@ -1,0 +1,155 @@
+.container-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.slide {
+    padding: 1%;
+    height: 300px;
+    min-width: 100%;
+    max-height: 400px;
+}
+
+.imgC{
+    background-color: rgba(0, 0, 0, 1);
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 400px;
+    filter:brightness(0.4);
+}
+.caption {
+    position: absolute; 
+    top: 105px; 
+    z-index: 10;
+    left: 14%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    color: #fff;
+    text-align: start;
+}
+
+.caption h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+@-webkit-keyframes backInUp {
+    0% {
+      transform: translateY(1200px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateY(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes backInUp {
+    0% {
+      transform: translateY(1200px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateY(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .backInUp {
+    -webkit-animation: backInUp 1.5s;
+    animation: backInUp 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+@-webkit-keyframes backInLeft {
+    0% {
+      transform: translateX(-2000px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateX(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes backInLeft {
+    0% {
+      transform: translateX(-2000px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateX(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .backInLeft {
+    -webkit-animation: backInLeft 1.5s;
+    animation: backInLeft 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  @keyframes backInDown {
+    0% {
+      transform: translateY(-1200px) scale(.7);
+      opacity: .7;
+    }
+  
+    80% {
+      transform: translateY(0px) scale(.7);
+      opacity: .7;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .backInDown {
+    -webkit-animation: backInDown 1.5s;
+    animation: backInDown 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .caption{
+        font-size: clamp(8px, 10px, 20px);
+        top: 12px;
+        padding-top: 1.8rem;
+        padding-right: 2rem;
+    }
+    .slide{
+        height: 190px;
+
+    }
+}

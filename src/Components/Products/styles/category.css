@@ -1,0 +1,40 @@
+.page-title{
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px 0px 85px;
+    height: 160px !important;
+}
+
+.imgCategory{
+    width: 100%;
+    height: 160px;
+    justify-items: center;
+    object-fit: cover;
+}
+.auto-container{
+    position: initial;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.page-title .title-box {
+    position: relative;
+    padding: 1px 15px 15px;
+    z-index: 10;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.page-title .title-box h2 {
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+
