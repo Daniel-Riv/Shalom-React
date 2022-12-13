@@ -19,6 +19,7 @@ export const ModalToPay = ({ open, handleClose,setOpen }) => {
         dispatch({ type: 'CLEAR_CART' });
     }
 
+
     const handleAddSend = () =>{
         const msg = `Hola, estoy interesado en comprar los siguientes productos: ${state.cart.map(item => `*${item.name}*, El costo de este producto es: *${item.price}*`).join(', ')}`;
         let url = `https://api.whatsapp.com/send?phone=573135891087&text=${encodeURI(msg)}&app_absent=0`;
