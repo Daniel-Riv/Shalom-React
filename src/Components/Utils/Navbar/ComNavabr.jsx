@@ -18,7 +18,7 @@ export const ComNavabr = () => {
         <>
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="/"><Image src="/Logo/logo2.png" style={{ display: 'flex', width: 130 }}/></Navbar.Brand>
+                <Navbar.Brand href="/"><Image src="/Logo/logo3.jpeg" style={{ display: 'flex', width: 130 }}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
