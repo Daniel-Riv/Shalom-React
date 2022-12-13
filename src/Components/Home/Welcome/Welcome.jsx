@@ -8,7 +8,7 @@ export const Welcome = () => {
                 <div className="top-title">
                     <div className="row clearfix">
                         <div className="col-md-4 col-sm-5 col-xs-12">
-                            <h2>Bivenidos a <br />shalom muebles y decoracion</h2>
+                            <h2>Bienvenidos a <br />shalom muebles y decoracion</h2>
                         </div>
                         <div className="col-md-8 col-sm-7 col-xs-12">
                             <div className="text" align="justify"><p>
